@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: mona2}
 layers:
   default:
-  - Q
+  - {t: Q, h: ESCAPE}
   - W
   - E
   - R
@@ -11,38 +11,38 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: '5'}
   - S
   - D
   - F
   - G
-  - F13
+  - F3
   - H
   - J
   - K
   - L
-  - ;
+  - '-'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
-  - B
-  - F14
-  - F15
+  - {t: B, h: '4'}
+  - LANGUAGE 1
+  - LANGUAGE 2
   - N
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
+  - {t: '''', h: RIGHT SHIFT}
   - LCTRL
-  - LEFT WIN
-  - F16
-  - BACKSPACE
-  - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: SPACE, h: '1'}
   - LEFT ALT
+  - F16
+  - ''
+  - {t: TAB, h: LEFT COMMAND}
+  - {t: SPACE, h: LEFT COMMAND}
+  - {t: '&to_layer_0 ENTER', h: '3'}
+  - {t: BACKSPACE, h: '1'}
+  - {t: /, h: '2'}
   '1':
   - '1'
   - '2'
@@ -124,11 +124,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
@@ -168,8 +168,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
@@ -198,7 +198,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - '&bootloader'
   - {t: ▽, type: trans}
@@ -211,8 +211,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
@@ -226,7 +226,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '&mkp MB3'
   - '&mkp MB2'
   - '&mkp MB1'
