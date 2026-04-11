@@ -103,9 +103,9 @@ layers:
   - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - ''
+  - ''
+  - ''
   - '='
   - +
   - F1
@@ -306,3 +306,9 @@ combos:
   k: {t: ESC, h: '4'}
 - p: [11, 12]
   k: TAB
+- p: [16, 17]
+  k: '&mkp LCLK'
+- p: [17, 18]
+  k: '&mkp RCLK'
+- p: [16, 18]
+  k: '&mkp MCLK'
