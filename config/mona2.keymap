@@ -36,17 +36,17 @@
 
         Left_Click {
             bindings = <&mkp LCLK>;
-            key-positions = <16 17>;
+            key-positions = <17 18>;
         };
 
         Right_Click {
             bindings = <&mkp RCLK>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
         };
 
         Middle_click {
             bindings = <&mkp MCLK>;
-            key-positions = <16 18>;
+            key-positions = <17 19>;
         };
     };
 
