@@ -306,9 +306,9 @@ combos:
   k: {t: ESC, h: '4'}
 - p: [11, 12]
   k: TAB
-- p: [16, 17]
-  k: '&mkp LCLK'
 - p: [17, 18]
+  k: '&mkp LCLK'
+- p: [18, 19]
   k: '&mkp RCLK'
-- p: [16, 18]
+- p: [17, 19]
   k: '&mkp MCLK'
