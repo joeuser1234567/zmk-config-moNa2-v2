@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - F3
+  - A
   - H
   - J
   - K
@@ -36,8 +36,8 @@ layers:
   - {t: '''', h: RIGHT SHIFT}
   - LCTRL
   - LEFT ALT
-  - F16
-  - ''
+  - A
+  - A
   - {t: TAB, h: LEFT COMMAND}
   - {t: SPACE, h: LEFT COMMAND}
   - {t: '&to_layer_0 ENTER', h: '3'}
