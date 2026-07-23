@@ -46,17 +46,17 @@
 
         Left_Click {
             bindings = <&mkp LCLK>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
         };
 
         Right_Click {
             bindings = <&mkp RCLK>;
-            key-positions = <18 19>;
+            key-positions = <19 20>;
         };
 
         Middle_click {
             bindings = <&mkp MCLK>;
-            key-positions = <17 19>;
+            key-positions = <20 18>;
         };
     };
 
@@ -117,10 +117,10 @@
 
         win_default_layer {
             bindings = <
-&mt ESCAPE Q      &kp W         &kp E   &kp R               &kp T                                                               &kp Y            &kp U  &kp I      &kp O    &kp P
-&lt 6 A           &kp S         &kp D   &kp F               &kp G                                       &kp A                   &kp H            &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C   &kp V               &lt 4 B           &lt 3 LANGUAGE_1          &kp LANGUAGE_2          &kp N            &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SINGLE_QUOTE
-&kp LCTRL         &kp LEFT_ALT  &trans  &lt 3 LEFT_CONTROL  &mt LEFT_ALT TAB  &mt LEFT_COMMAND SPACE    &lt_to_layer_0 2 ENTER  &lt 3 BACKSPACE                             &kp SLASH
+&mt ESCAPE Q      &kp W         &kp E   &kp R               &kp T                                                                   &kp Y            &kp U  &kp I      &kp O    &kp P
+&lt 6 A           &kp S         &kp D   &kp F               &kp G                                           &kp A                   &kp H            &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C   &kp V               &lt 4 B               &lt 3 LANGUAGE_1          &kp LANGUAGE_2          &kp N            &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SINGLE_QUOTE
+&kp LCTRL         &kp LEFT_ALT  &trans  &lt 3 LEFT_CONTROL  &mt LEFT_COMMAND TAB  &mt LEFT_CONTROL SPACE    &lt_to_layer_0 2 ENTER  &lt 3 BACKSPACE                             &kp SLASH
             >;
 
             sensor-bindings = <&scroll_up_down>;
