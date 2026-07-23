@@ -316,3 +316,7 @@ combos:
   k: '&mkp RCLK'
 - p: [20, 18]
   k: '&mkp MCLK'
+- p: [0, 1]
+  k: Ctl+Gui+LEFT ARROW
+- p: [8, 9]
+  k: Ctl+Gui+RIGHT ARROW
