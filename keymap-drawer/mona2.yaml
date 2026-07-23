@@ -38,8 +38,8 @@ layers:
   - LEFT ALT
   - {t: ▽, type: trans}
   - {t: LEFT CONTROL, h: mark}
-  - {t: TAB, h: LEFT ALT}
-  - {t: SPACE, h: LEFT COMMAND}
+  - {t: TAB, h: LEFT COMMAND}
+  - {t: SPACE, h: LEFT CONTROL}
   - {t: '&to_layer_0 ENTER', h: number_and_arrows}
   - {t: BACKSPACE, h: mark}
   - /
@@ -310,9 +310,9 @@ combos:
   k: {t: mac_default, h: toggle}
 - p: [11, 12]
   k: TAB
-- p: [17, 18]
-  k: '&mkp LCLK'
 - p: [18, 19]
+  k: '&mkp LCLK'
+- p: [19, 20]
   k: '&mkp RCLK'
-- p: [17, 19]
+- p: [20, 18]
   k: '&mkp MCLK'
