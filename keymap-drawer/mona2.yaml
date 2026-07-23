@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: mona2}
 layers:
-  default:
+  win_default:
   - {t: Q, h: ESCAPE}
   - W
   - E
@@ -41,6 +41,49 @@ layers:
   - {t: TAB, h: LEFT ALT}
   - {t: SPACE, h: LEFT COMMAND}
   - {t: '&to_layer_0 ENTER', h: number_and_arrows}
+  - {t: BACKSPACE, h: mark}
+  - /
+  mac_default:
+  - {t: Q, h: ESCAPE}
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: SCRL_L_R_Layer}
+  - S
+  - D
+  - F
+  - G
+  - A
+  - H
+  - J
+  - K
+  - L
+  - '-'
+  - {t: Z, h: LEFT SHIFT}
+  - X
+  - C
+  - V
+  - {t: B, h: bluetooth}
+  - {t: LANGUAGE 1, h: mark}
+  - LANGUAGE 2
+  - N
+  - M
+  - ','
+  - .
+  - {t: '''', h: RIGHT SHIFT}
+  - LCTRL
+  - LEFT ALT
+  - {t: ▽, type: trans}
+  - {t: LEFT CONTROL, h: mark}
+  - {t: TAB, h: LEFT ALT}
+  - {t: SPACE, h: LEFT COMMAND}
+  - {t: '&to_layer_1 ENTER', h: number_and_arrows}
   - {t: BACKSPACE, h: mark}
   - /
   number_and_arrows:
@@ -261,6 +304,10 @@ layers:
 combos:
 - p: [39, 38]
   k: {t: ESC, h: bluetooth}
+- p: [1, 9]
+  k: {t: win_default, h: toggle}
+- p: [29, 9]
+  k: {t: mac_default, h: toggle}
 - p: [11, 12]
   k: TAB
 - p: [17, 18]
