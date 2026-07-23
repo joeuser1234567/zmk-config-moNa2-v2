@@ -58,6 +58,16 @@
             bindings = <&mkp MCLK>;
             key-positions = <20 18>;
         };
+
+        desktop_left {
+            bindings = <&kp LC(LG(LEFT_ARROW))>;
+            key-positions = <0 1>;
+        };
+
+        desktop_right {
+            bindings = <&kp RC(RG(RIGHT_ARROW))>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
