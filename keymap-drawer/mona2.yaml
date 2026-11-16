@@ -11,12 +11,12 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: SCRL_L_R_Layer}
+  - A
   - S
   - D
   - F
   - G
-  - A
+  - {t: LEFT ALT, h: SCRL_L_R_Layer}
   - H
   - J
   - K
@@ -26,7 +26,7 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: bluetooth}
+  - B
   - {t: LANGUAGE 1, h: mark}
   - LANGUAGE 2
   - N
@@ -269,12 +269,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,8 +308,6 @@ combos:
   k: {t: win_default, h: toggle}
 - p: [29, 9]
   k: {t: mac_default, h: toggle}
-- p: [11, 12]
-  k: TAB
 - p: [18, 19]
   k: '&mkp LCLK'
 - p: [19, 20]
